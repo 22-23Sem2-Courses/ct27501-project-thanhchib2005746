@@ -1,0 +1,163 @@
+
+header {
+    padding: 0px;
+    font-size: 1.2rem;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.bg-nav {
+    background-image: linear-gradient(to left, #7BD5F5, #7BD5F5, #1CA7EC);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.icon-light {
+    color: white;
+}
+
+
+.navbar-toggler {
+    border: 1px solid rgb(2, 2, 2);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.my-btn-setup {
+    border-radius: 180rem;
+    width: 8rem;
+    background-image: linear-gradient(to left, #7BD5F5, #7BD5F5, #1CA7EC);
+    border: none;
+}
+
+.header_login-list {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.header_login-item {
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+
+.header_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_login {
+    display: inline-block;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* align-items: center; */
+}
+
+.register,
+.login {
+    float: right;
+    text-align: center;
+    /* margin: 17px 5px; */
+    text-decoration: none;
+    color: black;
+}
+
+.btn-bg {
+    background-color: #1CA7EC;
+}
+
+.btn-outline-bg {
+    color: #7BD5F5;
+    outline: #1CA7EC;
+}
+
+.login {
+    float: right;
+}
+
+.icon_search,
+.icon_cart,
+.icon_user {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.category-banner {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-img {
+    height: 450px;
+}
+
+.product {
+    margin: 10px;
+    width: 15rem;
+    height: 20rem;
+    border: 1px;
+    /* display: flex; */
+}
+
+.product-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-img {
+    width: 100%;
+    height: 192px;
+    border-radius: 0.125rem;
+    top: 0;
+    left: 0;
+}
+
+.product-info {
+    padding: 2px;
+}
+
+.product-name {
+    /* align-items: center;
+    line-height: 3rem; */
+    font-size: 1.5rem; 
+}
+
+.product-price {
+    align-items: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FF7F50;
+}
+
+.form-search {
+    width: 400px;
+    justify-content: flex-end;
+}
+
+.form-control {
+    width: 80%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,11 @@
+h2 {
+    margin: 0 auto;
+}
+header{
+    background-color: hsla(20, 6%, 80%, 0.037);
+    height: 50px;
+}
+.d-block {
+    width: 300px;
+    margin: 0 auto;
+}
